@@ -1,0 +1,143 @@
+%Eva Pagáčová, článok
+% Metódy inžinierskej práce
+
+\documentclass[10pt,twoside,slovak,coursepaper]{article}
+
+\usepackage[slovak]{babel}
+\usepackage[IL2]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{cite}
+\usepackage[table,xcdraw]{xcolor}
+
+\title{Virtuálny asistent\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2021/22, vedenie: Vladimír Mlynarovič}}
+\author{Eva Pagáčová\\[2pt]
+	{\small Slovenská technická univerzita v Bratislave}\\
+	{\small Fakulta informatiky a informačných technológií}\\
+	{\small \texttt{xpagacova@stuba.sk}}
+	}
+
+\date{\small 14.december 2021}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Virtuálny asistent sa využíva ako pomocník v domácnosti aj v pracovnom odvetví. Článok je zameraný na troch najznámejších virtuálnych asistentov založených na umelej inteligencii a to Alexa, Siri a Google Assistant. Článok sa venuje aj samotnému porovnaniu týchto virtuálnych hlasových asistentov, teda porovnaniu ich funkcií a vlastností. Obsahuje príklady využitia týchto asistentov v domácnosti aj v pracovnej oblasti.
+\end{abstract}
+
+{\bf Kľúčové slová:} Virtuálny asistent, Alexa, Google Assistant, Siri
+
+\section{Úvod}
+
+Virtuálni asistenti sú relatívnou novinkou vo svete, napriek tomu sa stali veľmi populárnymi v domácnostiach aj pracovných odvetviach. Funkcie virtuálnych asistentov sa vylepšujú za účelom zdokonalenia sa a praktickejšieho využitia vo svete. Výskum a vývoj v tejto technologickej oblasti neustále napreduje, najmä vďaka prirodzenej zvedavosti ľudstva a otázke, ako veľmi sme schopní posunúť hranice podobnosti s človekom. 
+
+Na zjednodušenie určitých činností sa preto vytvoril virtuálny asistent, ktorý je schopný učiť sa sám. Využíva model strojového učenia, vďaka ktorému sa vie učiť od ľudí a zapamätať si tieto poznatky. Následne je schopný pracovať (myslieť, predvídať) samostatne, preto sa stal veľmi užitočným. Všetky stroje, ktoré ľudstvo vymyslelo by nám malo uľahčovať život a zefektívniť pracovnú či inú činnosť. Platí to aj o virtuálnych asistentoch? 
+
+\section{Virtuálny asistent}
+Hoci máme v dnešnom svete všetko na dosah ruky, a jtak si chceme zľahčiť akúkoľvek prácu, ktorú máme urobiť. Sluhovia už nie sú v móde a zároveň chceme lacnejšiu alternatívu ako zamestnanca na plný úväzok. Preto sa stali virtuálni asistenti tak rýchlo populárnymi, ale ajtak ich zatiaľ nevyužívajú všetci. Niektorí ani nevedia, že existujú a netušia, aký potenciál ukrývajú. Čo je vlastne virtuálny asistent?
+
+Virtuálny asistent môže byť človek, ale aj aplikácia. Ako človek vykonáva pomocnú prácu najmä v oblasti administratívy, zákazníckej podpory či správy firemnej stránky. Môže teda fungovať napríklad ako sekretár/ka, osobný asistent/ka alebo ako pracovník/čka zákazníckej podpory. Medzi činnosti takéhoto virtuálneho asistenta patrí napríklad: správa webovej stránky a sociálnej siete, marketingové prieskumy, komunikácia so zákazníkmi napr. cez e-mail, chat, Skype, Slack, WhatsApp, Messenger a iné. V prípade zákazníckej podpory im pomáha riešiť problémy s objednávkami a prípadné reklamácie.\cite{Bouhanikova}
+
+Článok je však zameraný na virtuálneho asistenta ako aplikáciu, ktorá sa bežne nazýva taktiež ako AI asistent či digitálny asistent. 
+
+\subsection{Virtuálny asistent ako inteligentný pomocník}
+Virtuálny asistent je aplikácia, ktorá reaguje na hlasové povely a následne vykoná úlohy zadané používateľom. \ref{diagram} Zvyčajne sú to cloudové programy, ktoré fungujú na zariadeniach a aplikáciách s prístupom na internet. Teda sú k dispozícii na väčšine počítačov, tabletov, smartfónov a samostatných zariadení.\cite{Gupta}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{diagram.pdf}
+\caption{Funkcie virtuálneho asistenta \cite{McLaughlin}}
+\label{diagram}
+\end{figure}
+
+Virtuálni asistenti okrem odpovedania na otázky dokážu hovoriť vtipy, prehrať hudbu, kontrolovať v dome svetlá, termostat či inteligentné domáce zariadenia (za predpokladu, že sú prepojené). Disponujú schopnosťami ľudského asistenta, teda môžu telefonovať, posielať textové správy, zapísať schôdzku, vytvoriť pripomienku, nastaviť budík, zarezervovať letenku, nájsť hotel, zapísať poznámku alebo môžu vyhľadať informácie. \cite{McLaughlin}
+
+Vďaka tomu sa môžu naučiť zvyky, preferencie a záujmy používateľa. Stávajú sa tak užitočnejšími a efektívnejšími. Využívajú na to platformu strojového učenia, platformu spracovania prirodzeného jazyka a platformy na rozpoznávanie reči.\cite{Botelho}
+
+\subsection{Model strojového učenia}
+Strojové učenie (angl. Machine learning) je podoblasť umelej inteligencie, zaoberajúca sa metódami a algoritmami, vďaka ktorým sa program dokáže niečo naučiť. Následne vie vhodne zareagovať na dané podnety (vstupné hodnoty) bez predošlého naprogramovania odpovede na ne, reaguje len na základe naučených informácií. V daných algoritmoch sú použité prvky matematickej štatistiky, metódy štatistickej analýzy a hĺbkovú analýzu dát. \cite{Cibula}
+
+Počítač vlastne dokáže pracovať len s presnými údajmi a faktami, ale strojové učenie mu poskytuje odhad, ktorý je pri aplikáciách strojového učenia potrebný na vytváranie predikcií.
+
+\subsection{Využitie strojového učenia}
+Strojové  učenie je veľmi užitočné napríklad pri detekcii škodlivých softvérov - malvérov (angl. malware). Algoritmy sú taktiež schopné zachytiť anomálie v prístupe k dátam na cloude a predpovedať bezpečnostné narušenie. Veľké spoločnosti ako napríklad Google využívajú strojové učenie, aby poskytli užívateľom lepšie výsledky vyhľadávania, takže užívateľ sa dostane k relevantným informáciám omnoho skôr. \cite{Labus}
+
+\section{Najznámejší virtuálni hlasoví asistenti}
+Alexa, Siri a Google Assistant sú populárni virtuálni hlasoví asistenti vytvorení spoločnosťami Amazon, Apple a Google. Je potrebné ovládať aspoň jeden svetový jazyk, aby sa používateľ vedel dorozumieť s asistentom. Nezvykne to byť problém, keďže väčšina používateľov ovláda anglický jazyk na dostatočnej úrovni. Zároveň treba klásť otázky zrozumiteľne, inak virtuálny asistent nebude reagovať korektne (aspoň používateľovi sa bude zdať, že nie).\cite{Kadlec}
+
+\subsection{Alexa}
+Alexa, virtuálny asistent od Amazonu, funguje na svete od roku 2014 a patrí medzi najrozšírenejšieho pomocníka najmä vďaka použitiu v Amazon Echo. Toto zariadenie funguje ako inteligentný domáci rozbočovač aj ako reproduktor a môže pracovať aj s mnohými ďaľšími zariadeniami. Alexa ako cloudová služba sa neustále aktualizuje, aby bola inteligentnejšia. Na zvýšenie jej popularity a príťažlivosti boli niektoré aplikácie tretích strán povolené na integráciu so zariadeniami tretích strán.
+Vývojári ponúkajú  „Alexa zručnosti“, ktoré fungujú ako virtuána aplikácia na rozšírenie ponuky funkcií. Zručnosti je možné využiť v mnohých oblastiach, ako je šport, priemysel,zábava (hry), správy a sociálne médiá. Používateľ môže pridať ľubovoľný počet zručností a Alexa z nich následne vytvorí zoznam pre lepšiu prehľadnosť. \cite{Strephon}
+
+\subsection{Siri}
+Siri je virtuálny hlasový asistent vytvorený pre zariadenia Apple.Tento osobný asistent bol uvedený na trh s telefónom iPhone 4S v roku 2011 a považoval sa za najlepšiu vec na iPhone. Siri bola navrhnutá tak, aby ponúkala plynulé zážitky pri interakcii so zariadeniami, ako sú iPhone, iPad, hodinky Apple, hovorením so Siri a zisťovaním, čo chcete vedieť.  Siri sa vyvíjala vekom a rástli aj jej schopnosti a inteligencia. Okrem bežných funkcií virtuálneho asistenta je teraz možné preskočiť písanie na klávesnici a namiesto toho hlasovo nadiktovať text. 
+Siri je zvyčajne zapnutá v danom zariadení, ale ak je vypnutá, stačí otvoriť nastavenia zariadenia a zapnúť ju. Je možné ju aktivovať aj vyslovením „Hej Siri“, takže používateľ nemusí stlačiť tlačidlo Domov. Používateľ môže virtuálnemu asistentovi zmeniť hlas zo ženského na mužský, či zmeniť prízvuk alebo jazyk. Zatiaľ však neobsahuje možnosť pre slovenský jazyk (nie je to veľmi rozšírený jzyk), takže je lepšie zvoliť si anglický jazyk, ktorému rozumie najlepšie.
+ Siri má prístup k predinštalovaným aplikáciám na zariadení Apple. Zahŕňa to aplikácie ako Kontakty, Email, Safari, Mapy a Správy. V prípade potreby vie Siri využiť prístup k týmto aplikáciám a prehľadávať ich databázu. Úlohy a príkazy je možné vykonať pomocou povelu „Hej Siri“ alebo dvojitým klepnutím na tlačidlo Domov.Vďaka tomu sa dá ušetriť čas a nie je potrebné otvárať viac aplikácií, vyhľadávať kontakty alebo písať správy.\cite{Strephon}
+
+\subsection{Google Assistant}
+V máji 2016 bol na udalosti Google I/O prvýkrát predstavený virtuálny asistent od Google spoločnosti - Google Assistant. Aplikácia je navrhnutá ako osobná a predstavuje rozšírenie hlasového ovládania „OK Google“. Používatelia, ktorí používajú zariadenia s Androidom, už možno vedia, že Chytré karty Google inteligentne získavajú relevantné informácie. Iinformácie ako napríklad kde používateľ pracuje, jeho polohy a schôdzky, cestovné plány a jeho záujmy.
+ „Hej, Google“ a  „OK, Google“ na druhej strane pokrýva hlasové príkazy, umožňuje posielať správy, ovládať zariadenia hlasom a kontrolovať schôdzky, tak ako Apple Siri funguje na zariadeniach iPad a iPhone. Asistent Google spája všetky tieto funkcie dohromady a vytvára tak umelú inteligenciu na princípe robota, ktorá pokrýva obe oblasti konverzačnými interakciami. \cite{Strephon}
+
+\section{Porovnanie Alexa, Siri, Google Assistant}
+Všetci traja virtuálni asistenti sú si podobné, väčšinu funkcií majú spoločných, ale predsalen sa dajú nájsť rozdiely. Z porovnania v nasledujúcej tabuľke \ref{tabuľka} vyplýva, že najviac sa oplatí investovať do Google Assistant aplikácie. Síce je to najmladší model z daných troch favoritov, ale funguje na iOS aj na Android zariadeniach, ponúka najväčší výber jazykov na dorozumenie a spolupracuje napríklad so Spotify.\cite{Strephon} Uvedené ceny zodpovedajú produktu, ktorý kombinuje reproduktor s hlasovým asistentom. Google Assistant s produktom Google Home Mini začína aj na nižšej cene, ale do porovnania je zahrnutý bežný Google Home reproduktor. \cite{Statik} Cenovo je teda relatívne dostupný. 
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+\rowcolor[HTML]{B74C79} 
+\textbf{Alexa} & \textbf{Siri} & \textbf{Google Assistant} \\ \hline
+\rowcolor[HTML]{EDDBE3} 
+Amazon, 2014   & Apple, 2011   & Google, 2016              \\ \hline
+\rowcolor[HTML]{EDDBE3} 
+iOS, Android   & iOS           & iOS, Android              \\ \hline
+\rowcolor[HTML]{EDDBE3} 
+8 jazykov      & 21 jazykov    & 44 jazykov                \\ \hline
+\rowcolor[HTML]{EDDBE3} 
+od 99,99€      & od 319,20€    & od 102€                   \\ \hline
+\rowcolor[HTML]{EDDBE3} 
+Spotify - áno  & Spotify - nie & Spotify - áno             \\ \hline
+\end{tabular}
+\caption{Porovnanie Alexa, Siri a Google Assistant \cite{Statik}}
+\label{tabuľka}
+\end{table}
+
+Nakoľko sú virtuálny asistenti viac obľúbení medzi mladšou generáciou, pozrime sa na nasledujúci graf \ref{populárnosť} ukazujúci ich populárnosť medzi mileniálmi pri nakupovaní. Google Assistant je využívaný až 24 percentami mladých. Siri a Amazon využíva takmer rovnaký podiel mileniálov, a to 19 \% a 18 \%. \cite{Kinsella}
+\begin{figure}[H]
+\centering
+\includegraphics[width=110mm]{popularnost.png}
+\caption {Populárnosť virtuálnych asistentov pri nakupovaní \cite{Kinsella}}
+\label{populárnosť}
+\end{figure}
+
+\section{Postrehy používateľov}
+Virtuálni asistenti majú teda veľa výhod, niektoré z nich zhrnuli respondenti prieskumu zo Spojených Štátov v roku 2017 \ref{plusy}. Najviac sa respondentom páčilo, že majú viac pohodlia v živote, trávia menej času pred obrazovkou (monitorom) a chválili si lepšiu orientáciu pri nakupovaní tovaru a služieb.\cite{Nae}
+\begin{figure}[H]
+\centering
+\includegraphics[width=110mm]{plusy}
+\caption{Benefity virtuálneho asistenta\cite{Nae}}
+\label{plusy}
+\end{figure}
+
+Títo respondenti spomenuli aj negatívne dopady virtuálnych asistentov \ref{mínusy}. Polovica respondentov za riziko označila ťažkosti s kontaktovaním iných ľudí a menej súkromia v živote, vyše tretina sa sťažovala na zvýšené množstvo reklamy a nedorozumenia.\cite{Nae}
+\begin{figure}[H]
+\centering
+\includegraphics[width=100mm]{minusy}
+\caption{Riziká virtuálneho asistenta \cite{Nae}}
+\label{mínusy}
+\end{figure}
+
+Známy je prípad maloletého dieťaťa, ktoré si pomocou Amazon Echo kúpilo hračku bez prítomnosti rodičov. Keď sa správa objavila v televízií a moderátorka zopakovala tie isté slová ako toto dieťa, nákup spracovali aj iné zariadenia, ktoré zachytili tento príkaz z televízie. \cite{Nae}
+
+\section{Vyjadrenie sa na témy predmetu}
+
+\section{Záver}
+Za tých pár rokov od vzniku sa virtuálni asistenti dokázali veľmi dobre začleniť do života nejedného používateľa. Hoci ešte stále veľké množstvo ľudí  nevyužíva virtuálneho asistenta, tak sú natoľko obklopovaní technológiou a jej vynálezmi, že jedného dňa budú bežne pracovať s virtuálnym asistentom. Samozrejme sa nájdu výnimky, ale virtuálni asistenti sú natoľko efektívni, že sa ich oplatí využívať. Stále platí, že sa vyvíjajú a zdokonaľujú, teda budú môcť lepšie pracovať a pomáhať. Avšak to znamená, že používateľ stratí veľa zo svojho súkromia, bude odkázaný na dané zariadenie, ktoré spája všetko ostatné. Možno by niekto polemizoval, či to je novodobý sluha a či pán. Zatiaľ je najlepšie označiť ich ako pomocníka, keďže stále musí niečo vykonať aj používateľ, musí ovládať dané zariadenie, ale aj skontrolovať, čo vykonal stroj. Nedá sa označiť ani za sluhu, keďže nedokáže vykonať všetky príkazy a niektorým nemusí rozumieť.
+
+\bibliography{literaturakclanku}
+\bibliographystyle{abbrv}
+
+\end{document}
